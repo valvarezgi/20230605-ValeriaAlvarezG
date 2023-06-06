@@ -1,0 +1,31 @@
+19  touch comandos.txt main.js index.html
+   20  git add .
+   21  git commit -m "Commit 01 de ValeriaAlvarez"
+   22  git push origin main
+   23  git branch feature01
+   24  git checkout feature01 
+   25  mkdir Terminal Hardware
+   26  cd Terminal/
+   27  touch resumen.txt
+   28  cd ..
+   29  cd Hardware/
+   30  touch resumen.txt
+   31  git add .
+   32  git commit -m "Commit 02 de ValeriaAlvarez"
+   33  git push origin feature01 
+   34  git branch feature02
+   35  git checkout feature02
+   36  git checkout feature01
+   37  git add .
+   38  git commit -m "Commit 03 de ValeriaAlvarez"
+   39  git add .
+   40  git commit -m "Commit 03 de ValeriaAlvarez"
+   41  cd ..
+   42  git add .
+   43  git commit -m "Commit 03 de ValeriaAlvarez"
+   44  git push origin feature01
+   45  git pull origin feature01 
+   46  git add .
+   47  git commit -m "Commit 04 de ValeriaAlvarez"
+   48  git push origin feature02
+   49  history
